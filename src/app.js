@@ -7,7 +7,7 @@ import './styles/styles.css'
 
 const App = () => (
   <MuiThemeProvider>
-  <AppRouter />
+    <AppRouter />
   </MuiThemeProvider>
 )
 
