@@ -1,4 +1,4 @@
-const selfCare = [
+const selfCareActivities = [
   "Pour yourself a tea/coffee in your favourite mug/cup",
   "Do your hair differently today",
   "Indulge in a sweet treat",
@@ -13,8 +13,8 @@ const selfCare = [
   "Check-in with yourself throughout the day to ensure that you don’t get overwhelmed",
   "Write a postcard to someone you haven’t contacted in awhile",
   "Journal",
-  "Cook a meal whilst listening to your favourite music",
-  "Dance your heart out to your favourite music",
+  "Cook a meal whilst listening to your favorite music",
+  "Dance your heart out to your favorite music",
   "Go for an early morning walk",
   "Go for a walk while the sun sets",
   "Connect with a friend or significant other through conversation even if it’s just for 5 minutes of your day",
@@ -27,6 +27,7 @@ const selfCare = [
   "Laugh: read or watch something funny",
   "Have a date with yourself",
   "Splurge on something small",
+  "Treat yourself",
   "Stretch",
   "Give yourself a massage",
   "Take a photo of your day",
@@ -36,10 +37,10 @@ const selfCare = [
   "Call someone just to say hello",
   "Turn off your phone today, or if you can’t for whatever reason, at least turn it off for an hour",
   "Sing in the shower, whilst hanging out the laundry, washing the dishes, etc. – just sing",
-  "Cook/bake something and give it to a friend, family member, neighbour, etc.",
+  "Cook/bake something and give it to a friend, family member, neighbor, etc",
   "Listen to a podcast that interests you",
   "Discover a new blog based on your interests, and leave a comment or email the blogger",
-  "Write some positive thoughts on a post-it note and leave it at a bookstore, newsstand, coffee shop, etc.",
+  "Write some positive thoughts on a post-it note and leave it at a bookstore, newsstand, coffee shop, etc",
   "Have a picnic in an unconventional place, like your living room or veranda, invite people you love to join you",
   "Make your favourite meal/snack and enjoy it uninterrupted and be in the moment (no media or work)",
   "Ask for help if you need it today",
@@ -59,7 +60,7 @@ const selfCare = [
   "Order dinner in or have someone else make it",
   "Buy yourself a bouquet of flowers or arrange/pick flowers from your garden",
   "Drink water",
-  "Colour-in some colouring-in pages"
+  "Color-in some coloring-in pages"
 ]
 
-export default selfCare
+export default selfCareActivities
