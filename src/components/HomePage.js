@@ -37,17 +37,23 @@ class HomePage extends React.Component {
   render() {
     return (
       <div className="home">
-        <div className="selfCareDiv">Try this: </div>
-        <div className="selfCareItem">{selfCareActivities[this.state.activityNumber]}</div>
-        <div>
-          <button className="selector" onClick={this.changeActivityNumber}>Show A New Self Care Activity</button>
+        <button className="selector" onClick={this.changeAffirmationNumber}>New Self Affirmation</button>
+        <button className="selector" onClick={this.changeActivityNumber}>New Self Care Activity</button>
+
+        <div className="selfCareDiv"> 
+          <div>
+            <span>Try this: </span> 
+            <p className="selfCareItem">{selfCareActivities[this.state.activityNumber]}</p>
+          </div>
         </div>
 
-        <div className="selfCareDiv">Say this: </div>
-        <div className="selfCareItem">{affirmations[this.state.affirmationNumber]}</div>
-        <div>
-          <button className="selector" onClick={this.changeAffirmationNumber}>Show A New Self Affirmation</button>
+        <div className="affirmationDiv">
+          <div>
+            <span>Say this: </span> 
+            <p className="selfCareItem">{affirmations[this.state.affirmationNumber]}</p>
+          </div>
         </div>
+
       </div> 
     )
   }

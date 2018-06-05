@@ -5,12 +5,10 @@ import NotFoundPage from '../components/NotFoundPage'
 
 const AppRouter = () => (
   <BrowserRouter>
-    <div>
-      <Switch>
-        <Route path="/" component={HomePage} exact={true} />
-        <Route component={NotFoundPage} />
-      </Switch>
-    </div>
+    <Switch>
+      <Route path="/" component={HomePage} exact={true} />
+      <Route component={NotFoundPage} />
+    </Switch>
   </BrowserRouter>
 )
 
